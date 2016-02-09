@@ -8,7 +8,7 @@ class Tx_Contexts_Service_Tsfe
      *
      * @return void
      */
-    public function initFEuser($pObj)
+    public function initMatchingContexts($pObj)
     {
         Tx_Contexts_Context_Container::get()->initMatching();
     }

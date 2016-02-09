@@ -33,7 +33,7 @@ $TYPO3_CONF_VARS['SC_OPTIONS']['tslib/class.tslib_fe.php']['createHashBase'][]
 
 $TYPO3_CONF_VARS['SC_OPTIONS']['tslib/class.tslib_fe.php']['checkAlternativeIdMethods-PostProc']['contexts']
     = 'EXT:contexts/Classes/Service/Tsfe.php:'
-    . '&Tx_Contexts_Service_Tsfe->initFEuser';
+    . '&Tx_Contexts_Service_Tsfe->initMatchingContexts';
 $TYPO3_CONF_VARS['SC_OPTIONS']['typo3/mod/tools/em/index.php']['checkDBupdates']['contexts'] = 'EXT:contexts/Classes/Service/Install.php:Tx_Contexts_Service_Install';
 
 
